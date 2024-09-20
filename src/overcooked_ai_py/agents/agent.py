@@ -10,6 +10,7 @@ from overcooked_ai_py.mdp.actions import Action
 from overcooked_ai_py.mdp.overcooked_mdp import Recipe
 from overcooked_ai_py.utils import OvercookedException
 
+np.Inf = np.inf
 
 class Agent(object):
     agent_file_name = "agent.pickle"

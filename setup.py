@@ -50,21 +50,21 @@ setup(
         "opencv-python",
     ],
     # removed overlapping dependencies
-    extras_require={
-        "harl": [
-            "wandb",
-            "GitPython",
-            "memory_profiler",
-            "sacred",
-            "pymongo",
-            "matplotlib",
-            "requests",
-            "seaborn==0.9.0",
-            "ray[rllib]==2.0.0",
-            "protobuf",
-            "tensorflow==2.10",
-        ]
-    },
+    # extras_require={
+    #     "harl": [
+    #         "wandb",
+    #         "GitPython",
+    #         "memory_profiler",
+    #         "sacred",
+    #         "pymongo",
+    #         "matplotlib",
+    #         "requests",
+    #         "seaborn==0.9.0",
+    #         "ray[rllib]==2.0.0",
+    #         "protobuf",
+    #         "tensorflow==2.10",
+    #     ]
+    # },
     entry_points={
         "console_scripts": [
             "overcooked-demo-up = overcooked_demo:start_server",

@@ -56,6 +56,7 @@ src/overcooked_ai_py/utils.py
 src/overcooked_ai_py/agents/__init__.py
 src/overcooked_ai_py/agents/agent.py
 src/overcooked_ai_py/agents/benchmarking.py
+src/overcooked_ai_py/agents/fsm_agent.py
 src/overcooked_ai_py/data/fonts/Roboto-Regular.ttf
 src/overcooked_ai_py/data/graphics/arrow.png
 src/overcooked_ai_py/data/graphics/chefs.json
@@ -118,6 +119,9 @@ src/overcooked_ai_py/data/layouts/tutorial_3.layout
 src/overcooked_ai_py/data/layouts/unident.layout
 src/overcooked_ai_py/data/layouts/you_shall_not_pass.layout
 src/overcooked_ai_py/data/planners/__init__.py
+src/overcooked_ai_py/fsm/__init__.py
+src/overcooked_ai_py/fsm/fsm.py
+src/overcooked_ai_py/fsm/fsm_utils.py
 src/overcooked_ai_py/mdp/__init__.py
 src/overcooked_ai_py/mdp/actions.py
 src/overcooked_ai_py/mdp/layout_generator.py
@@ -132,6 +136,7 @@ src/overcooked_ai_py/visualization/pygame_utils.py
 src/overcooked_ai_py/visualization/state_visualizer.py
 src/overcooked_ai_py/visualization/visualization_utils.py
 src/overcooked_demo/__init__.py
+src/overcooked_demo/fsm_experiment.py
 src/overcooked_demo/server/__init__.py
 src/overcooked_demo/server/app.py
 src/overcooked_demo/server/game.py
