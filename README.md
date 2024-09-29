@@ -1,5 +1,6 @@
 # Code Architecture
 
+FSM logic implemented in https://github.com/HumanCompatibleAI/overcooked_ai
 ## FSM Logic (New Module)
 
 
